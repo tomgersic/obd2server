@@ -1,0 +1,52 @@
+root@raspberrypi:/home/pi/obdii# /opt/node/bin/node obd.js 
+{ value: 'OK' }
+{ value: 'OK' }
+{ value: 'OK' }
+{ value: 'OK' }
+{ value: 'OK' }
+{ value: 'OK' }
+{}
+{ mode: '41', pid: '0C', name: 'rpm', value: 706 }
+{ mode: '41', pid: '0C', name: 'rpm', value: 714 }
+{ mode: '41', pid: '0C', name: 'rpm', value: 721 }
+{ mode: '41', pid: '0C', name: 'rpm', value: 699 }
+{ mode: '41', pid: '0C', name: 'rpm', value: 713 }
+{ mode: '41', pid: '0C', name: 'rpm', value: 702 }
+{ mode: '41', pid: '0C', name: 'rpm', value: 688 }
+{ mode: '41', pid: '0C', name: 'rpm', value: 692 }
+{ mode: '41', pid: '0C', name: 'rpm', value: 693 }
+{ mode: '41', pid: '0C', name: 'rpm', value: 677 }
+{ mode: '41', pid: '0C', name: 'rpm', value: 690 }
+{ mode: '41', pid: '0C', name: 'rpm', value: 727 }
+{ mode: '41', pid: '0C', name: 'rpm', value: 750 }
+{ mode: '41', pid: '0C', name: 'rpm', value: 734 }
+{ mode: '41', pid: '0C', name: 'rpm', value: 696 }
+{ mode: '41', pid: '0C', name: 'rpm', value: 702 }
+
+
+
+root@raspberrypi:/home/pi/obdii# /opt/node/bin/node obd.js 
+{ value: 'OK' }
+{ value: 'OK' }
+{ value: 'OK' }
+{ value: 'OK' }
+{ value: 'OK' }
+{ value: 'OK' }
+{}
+{ mode: '43',
+  name: 'requestdtc',
+  value: { errors: [ 'P0444', '-', '-' ] } }
+{ mode: '43',
+  name: 'requestdtc',
+  value: { errors: [ 'P0444', '-', '-' ] } }
+{ mode: '43',
+  name: 'requestdtc',
+  value: { errors: [ 'P0444', '-', '-' ] } }
+{ mode: '43',
+  name: 'requestdtc',
+  value: { errors: [ 'P0444', '-', '-' ] } }
+{ mode: '43',
+  name: 'requestdtc',
+  value: { errors: [ 'P0444', '-', '-' ] } }
+
+
